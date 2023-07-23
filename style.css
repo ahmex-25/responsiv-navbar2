@@ -174,3 +174,14 @@ footer a{
         font-size: 10px;
     }
 }
+@keyframes nav_animation {
+
+    from{
+        width: 0;
+        background-color: var(--MainColor);
+    }to{
+        width: 100%;
+        background-color: var(--SecondryColor);
+    }
+
+}
