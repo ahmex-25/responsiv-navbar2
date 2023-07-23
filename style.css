@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+Arabic:wght@600&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --MainColor:#0075ff;
+    --SecondryColor:#393939;
+    --ModelsColor:rgb(243, 243, 243);
+    --ModelFont:sans-serif;
+    --TextArabicFont:'Lateef', serif;
+    --TitleArabic: 'Noto Sans Arabic', sans-serif;
+    --BackgroundsDiv: #f5f5f5;
+    --BorderNone: none;
+}
+body {
+    
+}
+nav{
+    background-color: var(--SecondryColor);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    position: absolute;
+    width: 100%;
+    
+
+}
+nav a{
+    color: var(--ModelsColor,white);
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    font-family: var(--ModeslFont,sans-serif);
+    margin-left: 10px;
+    
+
+}
+.LoginIn{
+    background-color: var(--MainColor);
+    padding: 6px;
+    border: none;
+    position: absolute;
+    left: 5px;
+    color: var(--ModelsColor);
+    overflow: hidden;
+    
+
+}
+.LoginIn:hover{
+    box-shadow: 1px 0px 7px var(--ModelsColor);
+
+}
+
+#logo_nav {
+    position: absolute;
+    right: 25px;
+}
+
+
+
+
+
+
+footer {
+    background-color: var(--SecondryColor);
+    color: var(--BackgroundsDiv);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: var(--TextArabicFont);
+    
+}
+footer a{
+    text-decoration: none;
+    color: var(--BackgroundsDiv);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:670px) {
+
+    #logo_nav {
+        color: transparent;
+        display: none;
+    }
+    .LoginIn {
+        display: none;
+    }
+    nav a{
+        font-size: 10px;
+    }
+}
